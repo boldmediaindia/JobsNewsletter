@@ -3,57 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subscribe to Abhishek Anand's Job Newsletter</title>
+    <title>Subscribe to Jobs Newsletter</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
-            padding: 50px;
+            padding: 0;
             background-color: #f4f4f4;
+            text-align: center;
         }
         .container {
-            background: white;
+            max-width: 600px;
+            margin: 50px auto;
             padding: 20px;
+            background: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 500px;
-            margin: auto;
         }
         h1 {
             color: #333;
         }
         p {
-            font-size: 18px;
+            font-size: 16px;
             color: #555;
+            line-height: 1.5;
         }
-        .subscribe-btn {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 18px;
-            color: white;
-            background-color: #007bff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .subscribe-btn:hover {
-            background-color: #0056b3;
+        .payment-button {
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Subscribe to My Job Newsletter</h1>
-        <p><strong>Abhishek Anand</strong><br>
-           10 years in big media—100s trials, millions of views! 🚀<br>
-           Now building my own content company | Still a Journalist | Creator | Ex-Asst Editor (News) @ AajTak/IndiaToday
-        </p>
-        <p>💼 Get 100+ job updates daily!<br>
-           📩 Only ₹199/month
-        </p>
-        <a href="#" class="subscribe-btn">Subscribe Now</a>
+        <h1>Subscribe to Jobs Newsletter</h1>
+        <p><strong>Hello, I am Abhishek Anand</strong></p>
+        <p>Have spent 10 years in big media—100s of trials, millions of views! 🚀<br>
+           Now building my own content company | Still a Journalist | Creator |<br>
+           Ex-Asst Editor (News) @ AajTak/IndiaToday</p>
+        <p><strong>Here you will get real jobs!</strong></p>
+        <p>💼 I update jobs daily! 📩 Only ₹199/month</p>
+        <p>Support from me over LinkedIn chat (just share the screenshot of payment) <br>
+           or via email - <a href="mailto:abhishek.letters@gmail.com">abhishek.letters@gmail.com</a></p>
+        <div class="payment-button">
+            <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_Q1q9FXVTBgN8A6/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
+                <script>
+                    (function(){
+                        var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                        if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                        s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                        rzp && rzp.init && rzp.init()}})();
+                </script>
+            </div>
+        </div>
     </div>
 </body>
 </html>
