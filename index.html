@@ -31,36 +31,34 @@
         .payment-button {
             margin-top: 20px;
         }
+        .social-links {
+            margin-top: 20px;
+        }
         .social-links a {
-    text-decoration: none;
-    color: #0073b1;
-    font-weight: bold;
-    margin: 0 10px;
-}
-.social-links a:hover {
-    color: #005682;
-}
-
+            text-decoration: none;
+            color: #0073b1;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        .social-links a:hover {
+            color: #005682;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Subscribe to Jobs Newsletter</h1>
+        <h1>Subscribe to Real Jobs Newsletter— Updates Daily</h1>
         <p><strong>Hello, I am Abhishek Anand</strong></p>
-   <div class="social-links">
-    <a href="https://www.instagram.com/abhishekqx/" target="_blank">📷 Instagram</a> |
-    <a href="https://www.linkedin.com/in/abhishek-anand-x/" target="_blank">💼 LinkedIn</a> |
-    <a href="https://www.youtube.com/@JournalistAbhishekAnand" target="_blank">🎥 YouTube</a> |
-    <a href="https://x.com/TweetAbhishekA" target="_blank">🐦 Twitter</a>
-</div>
 
         <p>Have spent 10 years in big media—100s of trials, millions of views! 🚀<br>
            Now building my own content company | Still a Journalist | Creator |<br>
            Ex-Asst Editor (News) @ AajTak/IndiaToday</p>
         <p><strong>Here you will get real jobs!</strong></p>
-        <p>💼 I update jobs daily! 📩 Only ₹199/month</p>
-        <p>Support from me over LinkedIn chat (just share the screenshot of payment) <br>
-           or via email - <a href="mailto:abhishek.letters@gmail.com">abhishek.letters@gmail.com</a></p>
+        <p>💼 I update jobs daily! </p>
+
+        <!-- Subscription message added above Razorpay -->
+        <p><strong>Subscribe now by paying only Rs 199 (per month)</strong></p>
+
         <div class="payment-button">
             <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_Q1q9FXVTBgN8A6/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
                 <script>
@@ -70,8 +68,21 @@
                         s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
                         rzp && rzp.init && rzp.init()}})();
                 </script>
-                
             </div>
+        </div>
+
+        <!-- Support section moved below payment -->
+        <h3>Support</h3>
+        <p>Support from me over LinkedIn chat (just share the screenshot of payment) <br>
+           or via email - <a href="mailto:abhishek.letters@gmail.com">abhishek.letters@gmail.com</a></p>
+
+        <!-- Socials moved to the bottom -->
+        <h3>Social</h3>
+        <div class="social-links">
+            <a href="https://www.instagram.com/abhishekqx/" target="_blank">📷 Instagram</a> |
+            <a href="https://www.linkedin.com/in/abhishek-anand-x/" target="_blank">💼 LinkedIn</a> |
+            <a href="https://www.youtube.com/@JournalistAbhishekAnand" target="_blank">🎥 YouTube</a> |
+            <a href="https://x.com/TweetAbhishekA" target="_blank">🐦 Twitter</a>
         </div>
     </div>
 </body>
