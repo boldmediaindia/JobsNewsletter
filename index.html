@@ -5,94 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscribe to Jobs Newsletter</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: linear-gradient(135deg, #0073ff, #00c3ff);
+            color: white;
             text-align: center;
         }
+
         .container {
-            max-width: 600px;
+            max-width: 650px;
             margin: 50px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
         }
+
         h1 {
-            color: #333;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 10px;
         }
+
         p {
             font-size: 16px;
-            color: #555;
-            line-height: 1.5;
+            line-height: 1.6;
+            color: #f1f1f1;
         }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .highlight {
+            background: #ffcc00;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
         .payment-button {
-            margin-top: 20px;
+            margin-top: 25px;
         }
+
+        .payment-button a {
+            display: inline-block;
+            padding: 12px 25px;
+            background: linear-gradient(45deg, #ff5733, #ff8c00);
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .payment-button a:hover {
+            background: linear-gradient(45deg, #ff4500, #ff6600);
+            transform: scale(1.05);
+        }
+
         .social-links {
-            margin-top: 20px;
+            margin-top: 25px;
         }
+
         .social-links a {
             text-decoration: none;
-            color: #0073b1;
+            color: white;
             font-weight: bold;
-            margin: 0 10px;
+            margin: 0 12px;
+            font-size: 18px;
+            transition: 0.3s;
         }
+
         .social-links a:hover {
-            color: #005682;
+            color: #ffcc00;
         }
-        .hero-image {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 10px;
-    margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+
+        .support-section {
+            margin-top: 25px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+        }
+
+        .support-section a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .support-section a:hover {
+            color: #ffffff;
+        }
 
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Real Jobs Newsletter— Updates Daily— Members Only</h1>
-        <h1>Subscribe to Jobs Newsletter</h1>
+        <h1>🚀 Real Jobs Newsletter – Members Only!</h1>
+        <h1>Subscribe Now for Daily Job Updates</h1>
 
-<img src="https://abhishekanandx.github.io/JobsNewsletter/imagex.jpg" alt="Jobs Newsletter Banner" class="hero-image">
+        <img src="https://boldmediaindia.github.io/JobsNewsletter/imagex.jpg" alt="Jobs Newsletter Banner" class="hero-image">
 
         <p><strong>Hello, I am Abhishek Anand</strong></p>
-
-        <p>Have spent 10 years in big media—100s of trials, millions of views! 🚀<br>
+        <p>10 years in big media—100s of trials, millions of views!<br>
            Now building my own content company | Still a Journalist | Creator |<br>
            Ex-Asst Editor (News) @ AajTak/IndiaToday</p>
-       <p><strong><span style="background-color: yellow;">This newsletter features genuine job opportunities along with direct application links. To get links Subscribe Now.</span></strong></p>
 
-        <p>💼 I update jobs daily! </p>
+        <p><strong class="highlight">This newsletter features genuine job opportunities with direct application links.</strong></p>
 
-        <!-- Subscription message added above Razorpay -->
-        <p><strong>Subscribe now by paying only Rs 199 (per month)</strong></p>
+        <p>💼 Updated daily with real job listings.</p>
+
+        <p><strong>Subscribe now for only ₹199/month</strong></p>
 
         <div class="payment-button">
-            <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_Q1q9FXVTBgN8A6/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
-                <script>
-                    (function(){
-                        var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
-                        if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
-                        s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
-                        rzp && rzp.init && rzp.init()}})();
-                </script>
-            </div>
+            <a href="https://pages.razorpay.com/pl_Q1q9FXVTBgN8A6/view">💰 Pay Now</a>
         </div>
-        <p><strong>After payment, the Real Jobs Newsletter link will be sent to the email address you entered on the payment platform.</strong></p>
 
+        <p><strong>After payment, the Real Jobs Newsletter link will be sent to your email.</strong></p>
 
-        <!-- Support section moved below payment -->
-        <h3>Support</h3>
-        <p>Support from me over LinkedIn chat (just share the screenshot of payment) <br>
-           or via email - <a href="mailto:abhishek.letters@gmail.com">abhishek.letters@gmail.com</a></p>
+        <div class="support-section">
+            <h3>💬 Support</h3>
+            <p>Need help? Chat with me on LinkedIn (just share the payment screenshot) or email me at <a href="mailto:abhishek.letters@gmail.com">abhishek.letters@gmail.com</a></p>
+        </div>
 
-        <!-- Socials moved to the bottom -->
-        <h3>Social</h3>
+        <h3>🌍 Connect with Me</h3>
         <div class="social-links">
             <a href="https://www.instagram.com/abhishekqx/" target="_blank">📷 Instagram</a> |
             <a href="https://www.linkedin.com/in/abhishek-anand-x/" target="_blank">💼 LinkedIn</a> |
